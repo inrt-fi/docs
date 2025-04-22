@@ -12,72 +12,71 @@
     "tabs": [
       {
         "tab": "INERTIA DOCUMENTATION",
-    "groups": [
-      {
-        "group": "Inertia Overview",
-        "pages": [
-          "00.Overview/Overview"
-        ]
-      },
-      {
-        "group": "Modular Lending Platform",
-        "pages": [
-          "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
-          "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol/TheFeaturesofaLendingProtocol",
+        "groups": [
           {
-            "group": "Use Cases and Benefits for Lenders and Borrowers",
+            "group": "Inertia Overview",
             "pages": [
-              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/UseCasesandBenefitsforLendersandBorrowers",
-              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforLendersDepositors",
-              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforBorrowers"
+              "00.Overview/Overview"
             ]
-          }
-        ]
-      },
-      {
-        "group": "LST & LRT Platform",
-        "pages": [
-          "02.InertiaasaLSTLRTPlatform/InertiaasaLSTLRTPlatform",
-          "02.InertiaasaLSTLRTPlatform/Dual-TokenModelEnhancingLendingYieldOptimizationThroughSpecializedLSTs",
-          "02.InertiaasaLSTLRTPlatform/PracticalExample"
-        ]
-      },
-      {
-        "group": "Yield Strategy",
-        "pages": [
-          "03.InertiaasaYieldManagementStrategyPlatform/03.InertiaasaYieldManagementStrategyPlatform",
-          "03.InertiaasaYieldManagementStrategyPlatform/03-01.CoreFeatures"
-        ]
-      },
-
-      {
-        "group": "Risk Management",
-        "pages": [
-          "05.RiskManagementFeatures/05.RiskManagementFeatures"
-        ]
-      },
-      {
-        "group": "Basic Features",
-        "pages": [
-          "06.BasicFeatures/06.BasicFeatures"
-        ]
-      },
-      {
-        "group": "Inertia's Point System",
-        "pages": [
-          "07.InertiasPointSystem/07.InertiasPointSystem",
-        ]
-      },
-      {
-        "group": "Milestone&Roadmap",
-        "pages": [
-          "08.MilestoneRoadmap/08.MilestoneRoadmap"
-        ]
-      },
-      {
-        "group": "Audit",
-        "pages": [
-          "09.Audit/09.Audit"
+          },
+          {
+            "group": "Modular Lending Platform",
+            "pages": [
+              "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
+              "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol/TheFeaturesofaLendingProtocol",
+              {
+                "group": "Use Cases and Benefits for Lenders and Borrowers",
+                "pages": [
+                  "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/UseCasesandBenefitsforLendersandBorrowers",
+                  "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforLendersDepositors",
+                  "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforBorrowers"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "LST & LRT Platform",
+            "pages": [
+              "02.InertiaasaLSTLRTPlatform/InertiaasaLSTLRTPlatform",
+              "02.InertiaasaLSTLRTPlatform/Dual-TokenModelEnhancingLendingYieldOptimizationThroughSpecializedLSTs",
+              "02.InertiaasaLSTLRTPlatform/PracticalExample"
+            ]
+          },
+          {
+            "group": "Yield Strategy",
+            "pages": [
+              "03.InertiaasaYieldManagementStrategyPlatform/03.InertiaasaYieldManagementStrategyPlatform",
+              "03.InertiaasaYieldManagementStrategyPlatform/03-01.CoreFeatures"
+            ]
+          },
+          {
+            "group": "Risk Management",
+            "pages": [
+              "05.RiskManagementFeatures/05.RiskManagementFeatures"
+            ]
+          },
+          {
+            "group": "Basic Features",
+            "pages": [
+              "06.BasicFeatures/06.BasicFeatures"
+            ]
+          },
+          {
+            "group": "Inertia's Point System",
+            "pages": [
+              "07.InertiasPointSystem/07.InertiasPointSystem"
+            ]
+          },
+          {
+            "group": "Milestone&Roadmap",
+            "pages": [
+              "08.MilestoneRoadmap/08.MilestoneRoadmap"
+            ]
+          },
+          {
+            "group": "Audit",
+            "pages": [
+              "09.Audit/09.Audit"
             ]
           }
         ]
