@@ -1,0 +1,30 @@
+---
+title: "Risk Management Features"
+---
+
+Risk management is crucial in a Lending Protocol. If the various mechanisms constituting the protocol do not function properly, it can result in bad debt within the protocol, leading to financial loss for users who have deposited their assets to the protocol.
+
+For this reason, Inertia continuously identifies and prepares management methods for various risks associated with the protocol. The following pages will explain the risks commonly shared by lending protocols, as well as those unique to Inertia’s structure, and how we address them.
+
+#### Risks in Lending Protocol
+
+- **Risks associated with oracles**: Price oracles are critical in the Lending Protocol because the values of both collateral and loans are calculated based on the prices fed by the oracle. Major losses in lending protocols often occur due to incorrect prices provided by oracles. To address these issues, Inertia plans to use Slinky, Initia's official oracle service. Additionally, we will continuously monitor the cost for attackers to manipulate prices of each asset to ensure the price oracle can be used reliably. For pegged assets like stablecoins or LSTs, we will avoid fixing their prices and consider the possibility of de-pegging.
+- **Risks associated with liquidation**: Another significant issue in the Lending Protocol arises when the liquidation process fails to cover the loan position when the collateral is to be liquidated.
+
+Inertia plans to address these risks in the following ways and will continuously share related information with the community:
+
+- Analyze price volatility-related risks when adding new assets to Inertia.
+- Continuously monitor the price volatility of assets and update Max LTV and liquidation thresholds accordingly for each asset.
+- Gradually increase the maximum loan size that can be issued from the lending pool based on the liquidity concentration in the DEX liquidity pool.
+
+**Potential Inertia-specific Risks**
+
+- **Yield-generating Asset Redeemability Issue**: On Inertia, assets deposited into the Lending Protocol are converted into yielding assets to generate additional revenue for the protocol. However, some of these assets may not be immediately redeemable back into underlying assets. This could prevent depositors from instantly withdrawing their deposited assets or borrowers from instantly receiving the assets they desire. To address these issues, we plan to implement the following two approaches:
+  - Provide depositors with the option to withdraw their liquid re/staking assets instead of the underlying assets they initially deposited.
+  - Continuously track the Utilization Rate (UR) of the pools subject to conversion, adjusting the conversion rate accordingly.
+
+More details regarding Inertia’s risk can be found on our documentation
+
+- **Price Stability of Liquid Yield-generating Assets**: On Inertia, ensuring that users' assets are not adversely affected by the price volatility of some of these assets are of utmost importance. Therefore, we plan to handle only assets that are not susceptible to volatile price drops.
+
+We constantly evaluate the mechanisms and identify potential risks before proceeding. Inertiacontinuously monitor risks associated with each protocol and share our risk analysis findings with the community regularly.
