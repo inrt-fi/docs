@@ -16,7 +16,10 @@
           {
             "group": "Get Started",
             "pages": [
-              "00.Overview/Overview"
+              "00.Overview/Overview",
+              "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
+              "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol"
+            
             ]
           }
         ]

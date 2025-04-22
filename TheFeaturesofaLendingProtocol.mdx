@@ -1,0 +1,9 @@
+---
+title: "The Features of a Lending Protocol"
+---
+
+- **Over-collateralized Lending**: In a Lending Protocol, borrowers must post their assets as collateral to receive loans in other assets. Since it's impossible to assess and manage the credit ratings of individual addresses, Lending Protocols ensure that borrowers repay their loans by requiring them to deposit assets worth more than the borrowed assets. This is called over-collateralization. A detailed explanation on loan-to-value (LTV) and Max LTVs are specified on docs here.
+- **Liquidation Process**: Inertia will also have a liquidation process, including a liquidation bidding platform. Once the LTV reaches a maximum, and there is a volatility on the collateralized asset’s value, the collateral is forced into liquidation. A detailed explanation on liquidation and liquidation threshold are specified on docs here: loan-to-value (LTV) and Max LTVs are specified on docs here.
+- **Lending Pools**: Lending Protocols provide easy access to facilitate loans. As it is impractical for the protocol to purchase these tokens in advance, a Inertia will provide lending pools, whereby borrowers can then take loans against these tokens deposited by other users.
+- **Utilization ratio**: Inertia maintains integrity to the utilization ratio found in lending pools. The Utilization Ratio (UR) is defined as the proportion of the total deposited assets in the lending pool that have been borrowed out. Inertia maintains a utilization ratio fit for different asset pools.
+- **Determination of the interest rates**: Inertia also determines the interest rates of these facilitated loans (via lending pools or collateralization). The interest rate is determined by a mathematical formula that you can view in greater depth here. Once again, Inertia determines interest rates separately for each pool, based on liquidity and utilization.
