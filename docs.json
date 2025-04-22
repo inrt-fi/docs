@@ -8,8 +8,10 @@
     "dark": "#FC004B"
   },
   "favicon": "/favicon.svg",
-{
   "navigation": {
+    "tabs": [
+      {
+        "tab": "INERTIA DOCUMENTATION",
     "groups": [
       {
         "group": "Inertia Overview",
@@ -21,10 +23,10 @@
         "group": "Modular Lending Platform",
         "pages": [
           "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
+          "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol/TheFeaturesofaLendingProtocol",
           {
-            "group": "Lending Protocol Features",
+            "group": "Use Cases & Benefits",
             "pages": [
-              "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol/TheFeaturesofaLendingProtocol",
               "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/UseCasesandBenefitsforLendersandBorrowers",
               "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforLendersDepositors",
               "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforBorrowers"
@@ -33,7 +35,7 @@
         ]
       },
       {
-        "group": "LST & LRT Integration",
+        "group": "LST & LRT Platform",
         "pages": [
           "02.InertiaasaLSTLRTPlatform/InertiaasaLSTLRTPlatform",
           "02.InertiaasaLSTLRTPlatform/Dual-TokenModelEnhancingLendingYieldOptimizationThroughSpecializedLSTs",
@@ -41,43 +43,47 @@
         ]
       },
       {
-        "group": "Yield Strategy Platform",
+        "group": "Yield Strategy",
         "pages": [
           "03.InertiaasaYieldManagementStrategyPlatform/03.InertiaasaYieldManagementStrategyPlatform",
           "03.InertiaasaYieldManagementStrategyPlatform/03-01.CoreFeatures"
         ]
       },
       {
-        "group": "INRT Token",
+        "group": "INRT Tokenomics",
         "pages": [
           "04.INRTTokenandTokenomics/04.INRTTokenandTokenomics",
           "04.INRTTokenandTokenomics/04-01.TokenValueAccrual"
         ]
       },
       {
-        "group": "Risk & Security",
+        "group": "Risk Management",
         "pages": [
-          "05.RiskManagementFeatures/05.RiskManagementFeatures",
-          "09.Audit/09.Audit"
+          "05.RiskManagementFeatures/05.RiskManagementFeatures"
         ]
       },
       {
-        "group": "Platform Features",
+        "group": "Basic Features",
         "pages": [
-          "06.BasicFeatures/06.BasicFeatures",
-          "07.InertiasPointSystem/07.InertiasPointSystem"
+          "06.BasicFeatures/06.BasicFeatures"
         ]
       },
       {
-        "group": "Roadmap",
+        "group": "Points & Milestones",
         "pages": [
+          "07.InertiasPointSystem/07.InertiasPointSystem",
           "08.MilestoneRoadmap/08.MilestoneRoadmap"
         ]
+      },
+      {
+        "group": "Security & Audit",
+        "pages": [
+          "09.Audit/09.Audit"
+            ]
+          }
+        ]
       }
-    ]
-  }
-},
-
+    ],
     "global": {
       "anchors": [
       ]
