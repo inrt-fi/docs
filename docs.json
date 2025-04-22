@@ -8,38 +8,76 @@
     "dark": "#FC004B"
   },
   "favicon": "/favicon.svg",
+{
   "navigation": {
-    "tabs": [
+    "groups": [
       {
-        "tab": "INERTIA DOCUMENTATION",
-        "groups": [
+        "group": "Inertia Overview",
+        "pages": [
+          "00.Overview/Overview"
+        ]
+      },
+      {
+        "group": "Modular Lending Platform",
+        "pages": [
+          "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
           {
-            "group": "Inertia",
+            "group": "Lending Protocol Features",
             "pages": [
-              "00.Overview/Overview",
-              "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
               "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol/TheFeaturesofaLendingProtocol",
               "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/UseCasesandBenefitsforLendersandBorrowers",
               "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforLendersDepositors",
-              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforBorrowers",
-              "02.InertiaasaLSTLRTPlatform/InertiaasaLSTLRTPlatform",
-              "02.InertiaasaLSTLRTPlatform/Dual-TokenModelEnhancingLendingYieldOptimizationThroughSpecializedLSTs",
-              "02.InertiaasaLSTLRTPlatform/PracticalExample",
-              "03.InertiaasaYieldManagementStrategyPlatform/03.InertiaasaYieldManagementStrategyPlatform",
-              "03.InertiaasaYieldManagementStrategyPlatform/03-01.CoreFeatures",
-              "04.INRTTokenandTokenomics/04.INRTTokenandTokenomics",
-              "04.INRTTokenandTokenomics/04-01.TokenValueAccrual",
-              "05.RiskManagementFeatures/05.RiskManagementFeatures",
-              "06.BasicFeatures/06.BasicFeatures",
-              "07.InertiasPointSystem/07.InertiasPointSystem",
-              "08.MilestoneRoadmap/08.MilestoneRoadmap",
-              "09.Audit/09.Audit"
-            
+              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforBorrowers"
             ]
           }
         ]
+      },
+      {
+        "group": "LST & LRT Integration",
+        "pages": [
+          "02.InertiaasaLSTLRTPlatform/InertiaasaLSTLRTPlatform",
+          "02.InertiaasaLSTLRTPlatform/Dual-TokenModelEnhancingLendingYieldOptimizationThroughSpecializedLSTs",
+          "02.InertiaasaLSTLRTPlatform/PracticalExample"
+        ]
+      },
+      {
+        "group": "Yield Strategy Platform",
+        "pages": [
+          "03.InertiaasaYieldManagementStrategyPlatform/03.InertiaasaYieldManagementStrategyPlatform",
+          "03.InertiaasaYieldManagementStrategyPlatform/03-01.CoreFeatures"
+        ]
+      },
+      {
+        "group": "INRT Token",
+        "pages": [
+          "04.INRTTokenandTokenomics/04.INRTTokenandTokenomics",
+          "04.INRTTokenandTokenomics/04-01.TokenValueAccrual"
+        ]
+      },
+      {
+        "group": "Risk & Security",
+        "pages": [
+          "05.RiskManagementFeatures/05.RiskManagementFeatures",
+          "09.Audit/09.Audit"
+        ]
+      },
+      {
+        "group": "Platform Features",
+        "pages": [
+          "06.BasicFeatures/06.BasicFeatures",
+          "07.InertiasPointSystem/07.InertiasPointSystem"
+        ]
+      },
+      {
+        "group": "Roadmap",
+        "pages": [
+          "08.MilestoneRoadmap/08.MilestoneRoadmap"
+        ]
       }
-    ],
+    ]
+  }
+},
+
     "global": {
       "anchors": [
       ]
