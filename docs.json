@@ -11,10 +11,10 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "INERTIA DOCUMENTATION",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Inertia",
             "pages": [
               "00.Overview/Overview",
               "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
