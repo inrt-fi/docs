@@ -19,7 +19,10 @@
               "00.Overview/Overview",
               "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
               "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol/TheFeaturesofaLendingProtocol",
-              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/UseCasesandBenefitsforLendersandBorrowers"
+              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/UseCasesandBenefitsforLendersandBorrowers",
+              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforLendersDepositors",
+              "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforBorrowers",
+              "02.InertiaasaLSTLRTPlatform/02.InertiaasaLSTLRTPlatform"
               
             
             ]
