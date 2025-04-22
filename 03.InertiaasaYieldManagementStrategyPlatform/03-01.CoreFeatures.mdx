@@ -1,0 +1,28 @@
+---
+title: "Core Features"
+---
+
+- **Utilizing Yield Generating Assets**: Inertia employs a mechanism that converts a portion of this idle liquidity into Yield Generating Assets for additional interest income, thereby enhancing the value of INRT. One can review the mathematical logic for how the proportion of liquidity is converted into yielding assets in the documentations here. Types of Yield Generating Assets: The assets employed by Inertia must meet the following criteria:
+  - **Delta-neutral**: These assets must maintain a delta-neutral state with the underlying asset. For example, only stablecoin-based assets should be matched with stablecoins, and only INIT-based assets should be matched with INIT.
+  - **High Profitability and Stability**: These yielding assets should offer high returns while minimizing risk.
+  - **High Liquidity**: These yielding assets should be quickly redeemable for the underlying asset.
+  - **High Scalability**: These yielding assets should allow for large amounts of liquidity to be freely deposited and withdrawn.
+
+Inertia currently utilizes or plans to utilize the following yield-generating assets:
+
+- **Stablecoin Pool**: USDC, USDe (Ethena)
+- **INIT Pool**: sINIT and other INIT LST and LRT
+- **TIA Pool**: sTIA and other TIA LST and LRT
+
+These assets are selected to ensure that Inertia can effectively leverage idle liquidity to generate additional yield while maintaining the protocol's overall stability and responsiveness.
+
+- **Leverage Farming: LST & Automated**: One of the primary reasons Inertia supports both LST and Lending within a single protocol is to facilitate easy LST leverage farming for users. This section explains LST leverage farming and how the Automated Leverage Farming feature simplifies this process for users.
+- **LST Leverage Farming**:In the lending protocol, you can use LSTs as collateral to borrow native tokens. If the staking yield of the collateralized LSTs is higher than the interest rate on the borrowed native tokens, you can convert the borrowed tokens back into LSTs to gain an additional interest rate differential. By repeating this process, you can engage in LST Leverage Farming by depositing LSTs, borrowing native tokens, converting them back into LSTs, redepositing, and borrowing again. In Inertia, you can deposit sINIT, borrow INIT, and then convert the borrowed INIT back into sINIT, repeating the process to build an LST leverage farming position.
+- **Automated Leverage Farming**: Recall that to establish an LST Leverage Farming position, users need to repeatedly perform three main transactions:
+  - **sINIT Deposit Transaction**: Deposit sINIT to be used as collateral.
+  - **INIT Borrowing Transaction**: Borrow INIT using the sINIT as collateral.
+  - **INIT to sINIT Conversion Transaction**: Convert the borrowed INIT back into sINIT by minting nINIT with the deposited INIT and then staking nINIT to mint sINIT.
+
+This process can be complex and error-prone when performed manually. Therefore, Inertia offers an Automated Leverage Farming feature that simplifies all these steps into a single transaction.
+
+Users only need to set the desired leverage ratio, and the protocol will automatically calculate the required collateral and borrowing amounts to establish the position. This feature makes it easy for users to set up LST Leverage Farming positions and is expected to promote the growth of both LST and lending within the Inertia ecosystem.
