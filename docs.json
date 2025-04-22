@@ -16,9 +16,12 @@
           {
             "group": "Get Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "00.Overview",
+              "01.InertiaasaModularLendingPlatform",
+              "02.InertiaasaLSTLRTPlatform"
+              "03.InertiaasaYieldManagementStrategyPlatform"
+              "04.INRTTokenandTokenomics"
+              
             ]
           },
           {
