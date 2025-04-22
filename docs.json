@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "Inertia Docs",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FC004B",
+    "light": "#FC004B",
+    "dark": "#FC004B"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -24,16 +24,6 @@
     ],
     "global": {
       "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://docs.inrt.fi",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Testnet",
-          "href": "https://app.testnet.inrt.fi",
-          "icon": "book-open-cover"
-        }
       ]
     }
   },
