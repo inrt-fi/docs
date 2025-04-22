@@ -25,7 +25,7 @@
           "01.InertiaasaModularLendingPlatform/InertiaasaModularLendingPlatform",
           "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol/TheFeaturesofaLendingProtocol",
           {
-            "group": "Use Cases & Benefits",
+            "group": "Use Cases and Benefits for Lenders and Borrowers",
             "pages": [
               "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/UseCasesandBenefitsforLendersandBorrowers",
               "01.InertiaasaModularLendingPlatform/01-03.UseCasesandBenefitsforLendersandBorrowers/BenefitsforLendersDepositors",
@@ -49,13 +49,7 @@
           "03.InertiaasaYieldManagementStrategyPlatform/03-01.CoreFeatures"
         ]
       },
-      {
-        "group": "INRT Tokenomics",
-        "pages": [
-          "04.INRTTokenandTokenomics/04.INRTTokenandTokenomics",
-          "04.INRTTokenandTokenomics/04-01.TokenValueAccrual"
-        ]
-      },
+
       {
         "group": "Risk Management",
         "pages": [
@@ -69,14 +63,19 @@
         ]
       },
       {
-        "group": "Points & Milestones",
+        "group": "Inertia's Point System",
         "pages": [
           "07.InertiasPointSystem/07.InertiasPointSystem",
+        ]
+      },
+      {
+        "group": "Milestone&Roadmap",
+        "pages": [
           "08.MilestoneRoadmap/08.MilestoneRoadmap"
         ]
       },
       {
-        "group": "Security & Audit",
+        "group": "Audit",
         "pages": [
           "09.Audit/09.Audit"
             ]
