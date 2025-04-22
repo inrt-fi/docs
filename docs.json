@@ -16,16 +16,8 @@
           {
             "group": "Get Started",
             "pages": [
-              "00.Overview",
-              "01.InertiaasaModularLendingPlatform",
-              "02.InertiaasaLSTLRTPlatform",
-              "03.InertiaasaYieldManagementStrategyPlatform",
-              "04.INRTTokenandTokenomics",
-              "05.RiskManagementFeatures",
-              "06.BasicFeatures",
-              "07.InertiasPointSystem",
-              "08.MilestoneRoadmap",
-              "09.Audit"
+              "00.Overview/Overview",
+              "01.InertiaasaModularLendingPlatform/01-02.TheFeaturesofaLendingProtocol/01-02.TheFeaturesofaLendingProtocol"
             ]
           }
         ]
