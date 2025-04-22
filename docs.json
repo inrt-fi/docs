@@ -18,8 +18,8 @@
             "pages": [
               "00.Overview",
               "01.InertiaasaModularLendingPlatform",
-              "02.InertiaasaLSTLRTPlatform"
-              "03.InertiaasaYieldManagementStrategyPlatform"
+              "02.InertiaasaLSTLRTPlatform",
+              "03.InertiaasaYieldManagementStrategyPlatform",
               "04.INRTTokenandTokenomics"
               
             ]
